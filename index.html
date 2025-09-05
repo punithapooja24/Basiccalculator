@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calculator">
+    
+    <input id="display" class="display" type="text" readonly />
+
+    
+    <div class="keys">
+      <button data-key="C" class="key action">C</button>
+      <button data-key="Backspace" class="key action">&larr;</button>
+      <button data-key="/" class="key operator">&divide;</button>
+      <button data-key="*" class="key operator">&times;</button>
+
+  
+      <button data-key="7" class="key">7</button>
+      <button data-key="8" class="key">8</button>
+      <button data-key="9" class="key">9</button>
+      <button data-key="-" class="key operator">−</button>
+
+      <button data-key="4" class="key">4</button>
+      <button data-key="5" class="key">5</button>
+      <button data-key="6" class="key">6</button>
+      <button data-key="+" class="key operator">+</button>
+
+      <button data-key="1" class="key">1</button>
+      <button data-key="2" class="key">2</button>
+      <button data-key="3" class="key">3</button>
+      <button data-key="Enter" class="key equals" rowspan="2">=</button>
+
+      <button data-key="0" class="key wide">0</button>
+      <button data-key="." class="key">.</button>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
